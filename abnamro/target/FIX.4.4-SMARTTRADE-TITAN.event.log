@@ -1,0 +1,6 @@
+20180103-16:07:13: Session FIX.4.4:SMARTTRADE->TITAN schedule is daily, 00:00:00-UTC - 00:00:00-UTC
+20180103-16:07:13: Created session: FIX.4.4:SMARTTRADE->TITAN
+20180103-16:07:15: Accepting session FIX.4.4:SMARTTRADE->TITAN from /127.0.0.1:62872
+20180103-16:07:15: Acceptor heartbeat set to 30 seconds
+20180103-16:07:15: Received logon
+20180103-16:07:15: Responding to Logon request
