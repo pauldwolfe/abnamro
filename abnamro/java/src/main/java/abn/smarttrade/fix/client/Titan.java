@@ -10,6 +10,8 @@ public class Titan extends MessageCracker implements Application {
 
     public void onCreate(SessionID sessionID) {
 
+
+
     }
 
     public void onLogon(SessionID sessionID) {

@@ -12,7 +12,15 @@
     <properties>
         <guava.version>21.0</guava.version>
         <quickfixj-core.version>2.0.0</quickfixj-core.version>
+        <marklogic-client-api.version>4.0.3</marklogic-client-api.version>
     </properties>
+
+    <repositories>
+        <repository>
+            <id>jcenter</id>
+            <url>http://jcenter.bintray.com</url>
+        </repository>
+    </repositories>
 
     <dependencies>
         <dependency>
@@ -25,12 +33,18 @@
             <artifactId>quickfixj-core</artifactId>
             <version>${quickfixj-core.version}</version>
         </dependency>
+        <dependency>
+            <groupId>com.marklogic</groupId>
+            <artifactId>marklogic-client-api</artifactId>
+            <version>${marklogic-client-api.version}</version>
+        </dependency>
 
     </dependencies>
 
     <modules>
         <module>java</module>
         <module>python</module>
+        <module>prs</module>
     </modules>
 
     <build>
