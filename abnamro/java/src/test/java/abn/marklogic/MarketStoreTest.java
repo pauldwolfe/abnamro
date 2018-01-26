@@ -18,6 +18,7 @@ import com.marklogic.client.DatabaseClientFactory;
 import com.marklogic.client.pojo.PojoRepository;
 import org.influxdb.InfluxDB;
 import org.influxdb.InfluxDBFactory;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import java.time.Instant;
@@ -27,6 +28,7 @@ import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertEquals;
 
+@Ignore
 public class MarketStoreTest {
 
     @Test
